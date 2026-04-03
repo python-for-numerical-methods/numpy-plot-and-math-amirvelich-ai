@@ -1,6 +1,6 @@
 import numpy as np
 
-def normalize_array(input_array):
+def normalized_array(input_array):
     data = np.array(input_array)
     
     if np.all(data == data[0]):
@@ -11,8 +11,8 @@ def normalize_array(input_array):
     return new_array
 
 
-print(normalize_array([5, 5, 5]))
-print(normalize_array([-1, 0, 1, 2]))
+print(normalized_array([5, 5, 5]))
+print(normalized_array([-1, 0, 1, 2]))
 
 if __name__ == "__main__":
     # כאן הסטודנטים יכולים להריץ בדיקה עצמית מהירה
